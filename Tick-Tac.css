@@ -6,3 +6,27 @@ body {
     background-color: cadetblue;
     text-align: center;
 }
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game-inner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px 0px;
+
+}
+button.game-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 0.5rem;
+    border: none;
+}
+.reset {
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: none;
+}
