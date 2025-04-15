@@ -19,4 +19,17 @@ const winingpnt = [
 ]
 
 // Apply Event Listeners When Click on Button Which Action Perform
-
+gamebtn.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        console.log("button was Clicked");
+        if(turnO) {
+            btn.innerText = "O";
+            turnO = false;
+        }else {
+            btn.innerText = "X";
+            turnO = true;
+        }
+        btn.disabled = true;
+    }
+    );
+});
