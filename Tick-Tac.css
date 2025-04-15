@@ -24,9 +24,14 @@ button.game-btn {
     height: 80px;
     border-radius: 0.5rem;
     border: none;
+    font-size: 2rem;
+    color: rgb(113, 46, 46);
 }
 .reset {
     padding: 10px;
     border-radius: 0.5rem;
     border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
